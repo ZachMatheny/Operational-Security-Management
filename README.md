@@ -20,3 +20,24 @@ During the lab, I performed various AD and OU administrative tasks. Using the Mi
   <li> <strong> Administrative Privileges:</strong> While not a specific tool, administrative privileges were essential for performing administrative tasks within Active Directory. These privileges allowed me to create, modify, and delete user accounts, groups, and organizational units. </li>
 </ul>
 
+<h1> Configuring a Remote Access VPN </h1>
+<h2> Overview </h2>
+<p>
+  I set up a Virtual Private Network (VPN) in this lab using the technology integrated into Microsoft Windows Server 2019. VPNs are essential for ensuring perimeter security, especially for remote employees accessing enterprise resources from untrusted networks. By encrypting network traffic, VPNs safeguard data from eavesdropping during transmission over the Internet.
+
+The lab focused on configuring the Windows Server 2019 to support a VPN, enabling VPN users on the remote server, and verifying its functionality by connecting from a different Windows system. This hands-on experience provided insights into the setup and management of VPNs, which are increasingly in demand due to the rise of telecommuting and remote working solutions.
+
+By leveraging the VPN technology within Windows Server 2019, organizations can establish secure connections for remote users and networks, enhancing their overall security posture in an increasingly interconnected digital landscape.
+</p>
+<h2> Tool Used </h2>
+<p>
+  In this lab, I utilized the following tools and technologies to set up a Virtual Private Network (VPN) using Microsoft Windows Server 2019:
+</p>
+<ul>
+  <li><strong> Microsoft Windows Server 2019: </strong> The core operating system used as the foundation for configuring and hosting the VPN infrastructure. </li>
+  <li><strong> VPN Server Configuration: </strong> Within Windows Server 2019, I configured the built-in VPN server functionality to support VPN connections. </li>
+  <li><strong> OpenVPN: </strong> OpenVPN is an open-source software application that implements virtual private network (VPN) techniques for creating secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities. It's widely used for its flexibility, security, and cross-platform compatibility. </li>
+  <li><strong> VPN Client:  </strong> On the remote Windows system, I used the built-in VPN client functionality available in Windows to connect to the VPN server.</li>
+  <li><strong> pfSense: </strong> pfSense is a free and open-source firewall and router software distribution based on FreeBSD. It provides a wide range of features, including VPN capabilities, through its intuitive web interface. pfSense is commonly used as a VPN server solution due to its robustness, scalability, and extensive feature set. </li>
+</ul>
+
